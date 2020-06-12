@@ -1,0 +1,131 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* HEADER-1 */
+
+.header-1 {
+    background-color: rgb(59, 59, 59);
+}
+
+.form-search {
+    float: right !important;
+}
+
+.trending {
+    display: block;
+}
+
+.link-trending {
+    /* text-decoration: none; */
+    font-size: 12px;
+    padding-left: 30px;
+    color: rgb(250, 249, 249);
+}
+
+.link-trending:hover {
+    color: rgb(245, 194, 131);
+}
+
+.link-trending i {
+    color: red;
+    font-size: 12px;
+}
+
+
+/* HEADER-2 */
+
+
+/* LOGO */
+
+.header-2 {
+    background-color: #f0a52b;
+}
+
+.logo {
+    padding-left: 28px;
+    transition: transform .4s;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.logo img {
+    /* padding-left: 10px; */
+    width: 70px;
+    height: 70px;
+}
+
+
+/* INTRODUCTION WEBSITE */
+
+.intro-web {
+    padding-top: 12px;
+}
+
+.intro-web {
+    transition: transform .4s;
+}
+
+.intro-web a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: transform .4s;
+    text-transform: capitalize;
+}
+
+.intro-web:hover {
+    transform: scale(1.1);
+}
+
+.intro-web h4 {
+    font-size: 1.1em;
+    font-weight: 400;
+}
+
+
+/* HOT TRENDING */
+
+.hot-trending {
+    align-items: center;
+    padding-top: 28px;
+}
+
+.hot-trending a {
+    text-decoration: none;
+    color: white;
+    padding: 2px 15px;
+    margin-right: 40px;
+    border: .8px solid white;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+
+/* CATEGORY */
+
+.categories {
+    background-color: #a70e1a;
+}
+
+.categories a {
+    color: white;
+    font-weight: 500;
+    transition: transform .2s;
+}
+
+.categories a:hover {
+    transform: scale(1.1) !important;
+}
+
+.abc {
+    text-transform: capitalize;
+}

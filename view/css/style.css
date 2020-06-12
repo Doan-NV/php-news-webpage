@@ -1,0 +1,146 @@
+/* HEADER-CSS */
+
+@import url("header.css");
+
+/* FOOTER-CSS */
+
+@import url("footer.css");
+
+/* SECTION */
+
+
+/* SECTION - 1 */
+
+.section-1 {
+    padding: 40px 0px;
+    background-color: rgb(240, 240, 240);
+}
+
+.section-1 .container {
+    border-bottom: 2px solid #333;
+}
+
+
+/* HOT-NEWS */
+
+.hot-news {
+    padding: 12px 32px;
+}
+
+.hot-news a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.hot-news a:hover {
+    color: rgb(71, 71, 71);
+}
+
+.link-hot-news img {
+    border-radius: 3px;
+}
+
+
+/* SECOND-HOT-NEWS */
+
+.second-hot-news {
+    padding: 12px 12px;
+}
+
+.second-hot-news a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.second-hot-news h2 {
+    line-height: 80%;
+}
+
+.second-hot-news a:hover {
+    color: rgb(71, 71, 71);
+}
+
+
+/* TRAVEL */
+
+.travel {
+    padding-bottom: 30px;
+    background-color: rgb(240, 240, 240);
+}
+
+.travel .container {
+    padding-bottom: 20px;
+    border-bottom: 2px solid orange;
+}
+
+.title-travel {
+    display: flex;
+    border-left: 3px solid orange;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.title-travel a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(43, 42, 42);
+    font-weight: 500;
+    border-bottom: 1px solid rgb(117, 114, 114);
+}
+
+.title-travel a:hover {
+    color: rgb(95, 95, 95);
+}
+
+
+/* MEDIA OBJECT  */
+
+.remarkable {
+    background-color: rgb(240, 240, 240);
+}
+
+.remarkable .container {
+    padding-bottom: 30px;
+    border-bottom: 3px solid green;
+}
+
+.remarkable-news {
+    padding-top: 12px;
+}
+
+.media a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px !important;
+}
+
+.media img {
+    border-radius: 4px;
+}
+
+.media a:hover {
+    color: rgb(92, 92, 92);
+}
+
+
+/* E-MAGAZINE */
+
+.emagazine {
+    background-color: rgb(240, 240, 240);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    ;
+}
+
+.arrow {
+    color: black;
+    font-size: 20px;
+    z-index: 0;
+}
+
+.arrow:hover {
+    color: black !important;
+}

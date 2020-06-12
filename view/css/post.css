@@ -1,0 +1,87 @@
+/* HEADER-CSS */
+
+@import url("header.css");
+
+/* FOOTER-CSS */
+
+@import url("footer.css");
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* SECTION   */
+
+.box-news {
+    background-color: white !important;
+}
+
+.title {
+    padding: 20px 40px;
+    margin: 0 40px;
+    display: flex;
+    border-bottom: 1px dotted #333;
+}
+
+.title h2 {
+    font-weight: 550;
+    text-transform: capitalize;
+}
+
+.icon-conn {
+    padding: 40px 0;
+}
+
+.icon-conn a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.icon-conn a i {
+    font-size: 40px;
+    padding: 10px 0px;
+    transition: all .3s;
+}
+
+.icon-conn a i:hover {
+    transform: scale(1.1);
+}
+
+.icon-conn .home {
+    color: rgb(255, 102, 0);
+}
+
+.icon-conn .facebook {
+    color: blue;
+}
+
+.icon-conn .instagram {
+    color: rgb(255, 183, 49);
+}
+
+.content {
+    padding: 40px 0;
+}
+
+
+/* RELATED */
+
+.related {
+    padding: 40px 0px;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 600;
+}
+
+.card a:hover {
+    color: rgb(71, 71, 71);
+}
